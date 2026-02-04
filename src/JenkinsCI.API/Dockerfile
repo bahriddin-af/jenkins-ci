@@ -4,14 +4,15 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["src/JenkinsCI.API/JenkinsCI.API.csproj", "JenkinsCI.API/"]
-RUN dotnet restore "JenkinsCI.API/JenkinsCI.API.csproj"
+
+COPY JenkinsCI.API.csproj .
+RUN dotnet restore JenkinsCI.API.csproj
+
 COPY . .
-WORKDIR "/src/JenkinsCI.API"
-RUN dotnet build "JenkinsCI.API.csproj" -c Release -o /app/build
+RUN dotnet build JenkinsCI.API.csproj -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "JenkinsCI.API.csproj" -c Release -o /app/publish
+RUN dotnet publish JenkinsCI.API.csproj -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
