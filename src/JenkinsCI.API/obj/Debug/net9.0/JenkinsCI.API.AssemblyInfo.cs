@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JenkinsCI.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+545a7209c1cd870c35a0799d77c896feb6888484")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03f905397e48b9dac76ecb736f1becee343dd3c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("JenkinsCI.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JenkinsCI.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
