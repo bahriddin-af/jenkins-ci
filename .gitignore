@@ -1,0 +1,56 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+*.psmdcp
+
+# DotNet
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# DotNet EF
+Migrations/
+
+# Rider / JetBrains
+.idea/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Git
+*.orig
+
+# Copilot / IntelliCode
+*.db-wal
+*.db-shm
+
+# Others temporary
+*.vsix
+*.cache
