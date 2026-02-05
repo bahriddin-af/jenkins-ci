@@ -18,9 +18,9 @@ public class ValuesController : ControllerBase
     public string Get(int id)
     {
         return "succes"; 
-    }
+    }   
 
-    // POST api/test
+    // POST api/test23412 
     [HttpPost]
     public void Post([FromBody] string value)
     {
