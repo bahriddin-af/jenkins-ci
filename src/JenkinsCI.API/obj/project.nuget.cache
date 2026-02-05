@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "/qb2PILLtsA=",
+  "dgSpecHash": "4rzxrQAum3Y=",
   "success": true,
   "projectFilePath": "C:\\Programming\\jenkins-ci\\src\\JenkinsCI.API\\JenkinsCI.API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Jakuy\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.6\\microsoft.aspnetcore.openapi.9.0.6.nupkg.sha512",
-    "C:\\Users\\Jakuy\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "C:\\Users\\Jakuy\\.nuget\\packages\\microsoft.extensions.apidescription.server\\9.0.0\\microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
+    "C:\\Users\\Jakuy\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\Jakuy\\.nuget\\packages\\swashbuckle.aspnetcore\\10.1.1\\swashbuckle.aspnetcore.10.1.1.nupkg.sha512",
+    "C:\\Users\\Jakuy\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.1\\swashbuckle.aspnetcore.swagger.10.1.1.nupkg.sha512",
+    "C:\\Users\\Jakuy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.1\\swashbuckle.aspnetcore.swaggergen.10.1.1.nupkg.sha512",
+    "C:\\Users\\Jakuy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.1\\swashbuckle.aspnetcore.swaggerui.10.1.1.nupkg.sha512",
+    "C:\\Users\\Jakuy\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
   ],
   "logs": []
 }
