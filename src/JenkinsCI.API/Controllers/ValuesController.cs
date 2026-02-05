@@ -20,7 +20,7 @@ public class ValuesController : ControllerBase
         return "succes"; 
     }
 
-    // POST api/values
+    // POST api/test
     [HttpPost]
     public void Post([FromBody] string value)
     {
